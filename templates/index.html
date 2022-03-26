@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Fish Classifier</title>
+</head>
+<body>
+    <div class="background">     
+        <div class="overlay">
+            <div class="card">
+                <h2>Fish classification</h2>
+                <p>Enter the details of the fish to predict its type</p>
+                <form class="classifyFish" action="/predict" method="POST">
+                    <input type="text" name="weight" placeholder="weight">                
+                    <input type="text" name="length1" placeholder="length1">
+                    <input type="text" name="length2" placeholder="length2">
+                    <input type="text" name="length3" placeholder="length3">
+                    <input type="text" name="height" placeholder="height">
+                    <input type="text" name="width" placeholder="width">
+                    <input class="submitBtn" type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
