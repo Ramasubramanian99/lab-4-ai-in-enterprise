@@ -1,15 +1,17 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
     height: 100vh;
     margin: 0;
     position: relative
 }
 .background {
-    background-image: url('./back.jpg');
+    background-image: url('/static/back.jpg');
     background-position: center;
     background-size: cover;
     height: 100%;
     z-index: 0;
 }
+
 .overlay {
     background-color: rgba(0, 0, 0, 0.473);
     width: 100%;
@@ -27,12 +29,17 @@ body {
     width: 20%;
     background-color: white;
 }
+.card h2 {
+    align-items: center;
+    text-align: center;
+}
 .submitBtn {
     background-color: rgb(18, 18, 117);
     color: white;
     box-shadow: none;
     outline: none;
     font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
     padding: 10px 20px;
     border: none;
     margin-top: 25px;
